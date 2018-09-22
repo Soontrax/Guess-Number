@@ -1,2 +1,2 @@
 # Guess-Number
-Developed with Framework Modernizer
+[Here you can play] (https://rawgit.com/Soontrax/Guess-Number/master/adivinar.html)
