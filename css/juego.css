@@ -1,0 +1,15 @@
+.celdas {
+    border: 1px solid #eee;
+    margin: 7px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
+}
+
+#enviar {
+    display: inline;
+    left: 570px;
+}

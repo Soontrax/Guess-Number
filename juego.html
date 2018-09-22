@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Juego</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/juego.css">
+
+    <!-- Compiled and minified Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Magra' rel='stylesheet'>
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <!-- Question 1-->
+        <h1>Question1</h1>
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">1</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">11</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">21</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">31</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">41</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">51</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">3</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">13</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">23</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">33</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">43</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">53</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">5</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">15</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">25</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">35</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">45</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">55</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">7</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">17</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">27</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">37</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">47</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">57</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">9</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">19</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">29</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">39</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">49</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">59</span>
+            </div>
+        </div>
+
+
+        <!--Aqui esta la respuesta de la primera tanda-->
+        <h4>¿Is Here your number?</h4>
+        <form action="#">
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" id="1" />
+                    <span>Yes</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" />
+                    <span>No</span>
+                </label>
+            </p>
+        </form>
+
+        <hr style="color: #0056b2;" />
+
+        <!----------------------------------------------------------------->
+
+        <!---Question 2--->
+
+        <h1>Question2</h1>
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">2</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">11</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">22</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">31</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">42</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">51</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">3</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">14</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">23</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">34</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">43</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">54</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">6</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">15</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">26</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">35</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">46</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">55</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">7</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">18</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">27</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">38</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">47</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">58</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">10</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">19</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">30</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">39</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">50</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">59</span>
+            </div>
+        </div>
+
+
+        <!--Aqui esta la respuesta de la segunda tanda-->
+        <h4>¿Is Here your number?</h4>
+        <form action="#">
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" id="2" />
+                    <span>Yes</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" />
+                    <span>No</span>
+                </label>
+            </p>
+        </form>
+
+        <hr style="color: #0056b2;" />
+
+        <!------------------------------------------------------------------------------------------------->
+
+        <!--Question 3-->
+        <h1>Question3</h1>
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">4</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">13</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">22</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">31</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">44</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">53</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">5</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">14</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">23</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">36</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">45</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">54</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">6</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">15</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">28</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">37</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">46</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">55</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">7</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">20</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">29</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">38</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">47</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">60</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">12</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">21</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">30</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">39</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">52</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">**</span>
+            </div>
+        </div>
+
+
+        <!--Aqui esta la respuesta de la tercera tanda-->
+        <h4>¿Is Here your number?</h4>
+        <form action="#">
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" id="3" />
+                    <span>Yes</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" />
+                    <span>No</span>
+                </label>
+            </p>
+        </form>
+
+        <hr style="color: #0056b2;" />
+        <!--------------------------------------------------------------------------->
+
+        <!--Question 4-->
+        <h1>Question4</h1>
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">8</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">13</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">26</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">31</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">44</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">57</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">9</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">14</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">27</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">40</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">45</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">58</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">10</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">15</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">28</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">41</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">46</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">59</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">11</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">24</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">29</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">42</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">47</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">60</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">12</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">25</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">30</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">43</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">56</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">**</span>
+            </div>
+        </div>
+
+
+        <!--Aqui esta la respuesta de la quarta tanda-->
+        <h4>¿Is Here your number?</h4>
+        <form action="#">
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" id="4" />
+                    <span>Yes</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" />
+                    <span>No</span>
+                </label>
+            </p>
+        </form>
+
+        <hr style="color: #0056b2;" />
+
+
+        <!----------------------------------------------------------------------------------->
+
+        <!--Question 5-->
+        <h1>Question5</h1>
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">16</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">21</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">26</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">31</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">52</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">57</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">17</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">22</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">27</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">48</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">53</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">58</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">18</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">23</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">28</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">49</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">54</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">59</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">19</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">24</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">29</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">50</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">55</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">60</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">20</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">25</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">30</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">51</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">56</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">**</span>
+            </div>
+        </div>
+
+
+        <!--Aqui esta la respuesta de la quinta tanda-->
+        <h4>¿Is Here your number?</h4>
+        <form action="#">
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" id="5" />
+                    <span>Yes</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" />
+                    <span>No</span>
+                </label>
+            </p>
+        </form>
+
+        <hr style="color: #0056b2;" />
+
+        <!----------------------------------------------------------------------------------->
+
+        <!--Question 6-->
+        <h1>Question6</h1>
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">32</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">37</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">42</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">47</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">52</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">57</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">33</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">38</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">43</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">48</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">53</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">58</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">34</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">39</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">44</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">49</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">54</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">59</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">35</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">40</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">45</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">50</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">55</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">60</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2 celdas">
+                <span class="flow-text">36</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">41</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">46</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">51</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">56</span>
+            </div>
+            <div class="col s2 celdas">
+                <span class="flow-text">**</span>
+            </div>
+        </div>
+
+
+        <!--Aqui esta la respuesta de la sexta tanda-->
+        <h4>¿Is Here your number?</h4>
+        <form action="#">
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" id="6" />
+                    <span>Yes</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="respuesta" type="radio" />
+                    <span>No</span>
+                </label>
+            </p>
+        </form>
+
+        <hr style="color: #0056b2;" />
+
+
+        <!----------------------------------------------------------------------------------->
+
+        <div id="mostrar" style="display: none">
+            <h3>
+                The number you have thought is the: <b id="numero"></b></h3>
+        </div>
+
+
+        <button id="enviar" class="waves-effect waves-light btn-large" type="submit" name="action">Guess Number
+        </button>
+
+        <br>
+        <br>
+        <br>
+
+    </div>
+</body>
+
+</html>

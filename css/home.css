@@ -1,0 +1,19 @@
+body, html{
+    background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center ;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	overflow-x: hidden;
+	line-height: 1.5;
+	font-family: 'Magra';
+}
+
+#boton-jugar{
+	float: right;
+}
+
+#titulos{
+	color: black;
+}
