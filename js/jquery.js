@@ -42,8 +42,4 @@ function Comprobar() {
     $("#mostrar").css("display","block");
 
     $("#enviar").css("display", "none");
-
-    
-
-
 }
